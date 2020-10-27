@@ -6,7 +6,7 @@ with open('README.md') as f:
 setup(
   name = 'impytool',      
   packages = ['impytool'],  
-  version = '0.5.1',      
+  version = '0.5.2',      
   license='MIT',        
   description = 'impytool is an opencv based tool that facilitates some image processing operations',   
   long_description=long_description,
@@ -14,7 +14,7 @@ setup(
   author = 'ny.ahmet',                   
   author_email = 'any43071@gmail.com',      
   url = 'https://github.com/nyahmet/impytool',   
-  download_url = 'https://github.com/nyahmet/impytool/archive/v_051.tar.gz',    
+  download_url = 'https://github.com/nyahmet/impytool/archive/v_052.tar.gz',    
   keywords = ['image', 'tool', 'processing' , 'color' , 'detection'],   
   install_requires=[            
           'opencv-python',
