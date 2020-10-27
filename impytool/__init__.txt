@@ -1,3 +1,4 @@
+import main
 from impytool.main import grayscale
 from impytool.main import color_filter
 from impytool.main import blur
