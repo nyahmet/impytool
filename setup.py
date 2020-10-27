@@ -5,7 +5,7 @@ setup(
   version = '0.1',      
   license='MIT',        
   description = 'impytool is an opencv based tool that facilitates some image processing operations',   
-  author = 'Ahmet Nuri Yılmaz',                   
+  author = 'ny.ahmet',                   
   author_email = 'any43071@gmail.com',      
   url = 'https://github.com/nyahmet/impytool',   
   download_url = 'https://github.com/nyahmet/impytool/archive/v_01.tar.gz',    
