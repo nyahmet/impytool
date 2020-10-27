@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'impytool',      
   packages = ['impytool'],  
-  version = '0.1',      
+  version = '0.2',      
   license='MIT',        
   description = 'impytool is an opencv based tool that facilitates some image processing operations',   
   author = 'ny.ahmet',                   
