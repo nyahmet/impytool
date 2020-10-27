@@ -205,7 +205,21 @@ def histogram(image,hist_type):
         hist = cv2.calcHist( [hsv], [0, 1], None, [180, 256], [0, 180, 0, 256] )
         plt.imshow(hist,interpolation = 'nearest')
         plt.show()
-        
+       
+def black_white(image,save):
+    try:
+        img = cv2.imread(image)
+    except:
+        img = image
+    grayscale = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    (thresh, bw) = cv2.threshold(grayscale, 127, 255, cv2.THRESH_BINARY)
+    display = cv2.resize(bw, (960,540))
+    cv2.imshow('black and white' + image, display)
+    return bw
+    if(save==1):
+        cv2.imwrite('black and white' + image, bw)
+           
+    
 
 
 
