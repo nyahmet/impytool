@@ -10,7 +10,7 @@ setup(
   url = 'https://github.com/nyahmet/impytool',   
   download_url = 'https://github.com/nyahmet/impytool/archive/v_01.tar.gz',    
   keywords = ['image', 'tool', 'processing' , 'color' , 'detection'],   
-  install_requires=[            # I get to this in a second
+  install_requires=[            
           'opencv-python',
           'matplotlib',
           'numpy'
