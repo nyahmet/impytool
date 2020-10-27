@@ -1,16 +1,20 @@
 from distutils.core import setup
-with open('README.md') as f:
-    long_description = f.read()
+
+README_PATH = "README.md"
+long_description = ""
+with open(README_PATH, "r", encoding="utf-8") as file:
+    long_description = file.read()
+    
 setup(
   name = 'impytool',      
   packages = ['impytool'],  
-  version = '0.3',      
+  version = '0.4',      
   license='MIT',        
   description = 'impytool is an opencv based tool that facilitates some image processing operations',   
   author = 'ny.ahmet',                   
   author_email = 'any43071@gmail.com',      
   url = 'https://github.com/nyahmet/impytool',   
-  download_url = 'https://github.com/nyahmet/impytool/archive/v_03.tar.gz',    
+  download_url = 'https://github.com/nyahmet/impytool/archive/v_04.tar.gz',    
   keywords = ['image', 'tool', 'processing' , 'color' , 'detection'],   
   install_requires=[            
           'opencv-python',
