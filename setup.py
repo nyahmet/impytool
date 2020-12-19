@@ -1,12 +1,12 @@
 from distutils.core import setup
 
-with open('README.md',encoding='utf-8') as f:
+with open('README.rst',encoding='utf-8') as f:
     long_description = f.read()
     
 setup(
   name = 'impytool',      
   packages = ['impytool'],  
-  version = '0.9.6',      
+  version = '0.9.7',      
   license='MIT',        
   description = 'impytool is an opencv based tool that facilitates some image processing operations',   
   long_description=long_description,
