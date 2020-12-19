@@ -6,7 +6,7 @@ with open('README.rst',encoding='utf-8') as f:
 setup(
   name = 'impytool',      
   packages = ['impytool'],  
-  version = '1.0.1',      
+  version = '1.1',      
   license='MIT',        
   description = 'impytool is an opencv based tool that facilitates some image processing operations',   
   long_description=long_description,
