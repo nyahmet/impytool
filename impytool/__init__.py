@@ -10,3 +10,4 @@ from impytool.main import histogram
 from impytool.main import flip
 from impytool.main import color_change
 from impytool.main import negative
+from impytool.main import black_white
