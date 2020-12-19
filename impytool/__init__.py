@@ -7,3 +7,6 @@ from impytool.main import contrast
 from impytool.main import only_color
 from impytool.main import rotate
 from impytool.main import histogram
+from impytool.main import flip
+from impytool.main import color_change
+from impytool.main import negative
