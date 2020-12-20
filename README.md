@@ -38,15 +38,15 @@
 *    image: Image file to be processed
 *    save: 1 or not. The 1 is will save the file in new form
 
-### **impytool.grayscale(image,save)**
+### **impytool.grayscale(image:str,save:bool=True)**
    
 > **Converts the image in grayscale form**
 
-### **impytool.negative(image,save)**
+### **impytool.negative(image:str,save:bool=True)**
 
 > **Converts the image in negative form**
 
-### **impytool.color_change(image,color1,color2,save)**
+### **impytool.color_change(image:str,color1,color2,save:bool=True)**
 
 > **Replaces one color in the image with another color**
 
@@ -60,17 +60,17 @@
 >>> **change red color to blue color on the "a.jpg"**
 
 
-### **impytool.color_filter(image,color,save)**
+### **impytool.color_filter(image:str,color:str,save:bool=True)**
 
 > **The image filtered by choosen color**
 
 *    color: "blue","green","red" . 
 
-### **impytool.blur(image,save)**
+### **impytool.blur(image:str,save:bool=True)**
 
 > **Converts the image blurred form**
 
-### **impytool.resize(image,w,h,save)**
+### **impytool.resize(image:str,w,h,save:bool=True)**
 
 > **Adjusts the image to the desired dimensions**
 
@@ -78,13 +78,13 @@
 *    h: Height of the new sizes.
 
 
-### **impytool.brightness(image,rate,save)**
+### **impytool.brightness(image:str,rate,save:bool=True)**
 
 > **Adjusts the brightness of the image**
 
 *   rate: Change rate of the brightness.
 
-### **impytool.contrast(image,alpha,save)**
+### **impytool.contrast(image:str,alpha,save:bool=True)**
 
 > **Adjusts the contrast of the image**
 
@@ -93,26 +93,26 @@
 >>**the 0-1.0 range is the lower contrast**
 >>>**the 1.0-3.0 is the higher contrast**
 
-### **impytool.only_color(image,color,save)**
+### **impytool.only_color(image:str,color:str,save:bool=True)**
 
 > **Shows only the selected color on the image**
 
 *  color: "blue" "green" "red" "yellow" "orange" "purple"
 
 
-### **impytool.rotate(image,direction,save)**
+### **impytool.rotate(image:str,direction,save:bool=True)**
 
 > **Flips the image**
 
 *    direction: The desired flip direction, it may be 'vertical' 'horizontal' 'both'
 
-### **impytool.flip(image,angle,save)**
+### **impytool.flip(image:str,angle,save:bool=True)**
 
 > **Rotates the image**
 
 *    angle: The desired rotation angle, it may be 90-180-270
 
-### **impytool.histogram(image,hist_type)**
+### **impytool.histogram(image:str,hist_type)**
 
 > **Creates a histogram for the image**
 
@@ -120,6 +120,6 @@
 >**it may be 'hist' : for the grayscale images**
 >>**it may be 'rgb_hist' : for the colored images**
 
-### **impytool.black_white(image,save)**
+### **impytool.black_white(image:str,save:bool=True)**
 
 > **Converts the image black & white form**
