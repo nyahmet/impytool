@@ -18,50 +18,50 @@
 | FUNCTION                | OPERATION               | USAGE            |
 +=========================+=========================+==================+
 | grayscale               | Converts the image in   | impytool.grays   |
-|                         | grayscale form          | cale(image,save) |
+|                         | grayscale form          | cale(image:str,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | negative                | Converts the image in   | impytool.nega    |
-|                         | negative form           | tive(image,save) |
+|                         | negative form           | tive(image:str,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | color_change            | Replaces one color in   | impytool.color_  |
-|                         | the image with another  | change(image,col |
-|                         | color                   | or1,color2,save) |
+|                         | the image with another  | change(image:str,col |
+|                         | color                   | or1,color2,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | color_filter            | The image filtered by   | impytoo          |
 |                         | choosen color           | l.color_filter(i |
-|                         |                         | mage,color,save) |
+|                         |                         | mage,color,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | blur                    | Converts the image      | impytool.        |
-|                         | blurred form            | blur(image,save) |
+|                         | blurred form            | blur(image:str,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | resize                  | Adjusts the image to    | impytool.resize  |
-|                         | the desired dimensions  | (image,w,h,save) |
+|                         | the desired dimensions  | (image:str,w,h,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | brightness              | Adjusts the brightness  | impy             |
 |                         | of the image            | tool.brightness( |
-|                         |                         | image,rate,save) |
+|                         |                         | image,rate,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | contrast                | Adjusts the contrast of | imp              |
 |                         | the image               | ytool.contrast(i |
-|                         |                         | mage,alpha,save) |
+|                         |                         | mage,alpha,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | only_color              | Shows only the selected | impyt            |
 |                         | color on the image      | ool.only_color(i |
-|                         |                         | mage,color,save) |
+|                         |                         | mage,color,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | rotate                  | Rotates the image       | impyt            |
 |                         |                         | ool.rotate(image |
-|                         |                         | ,direction,save) |
+|                         |                         | ,direction,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | flip                    | Flips the image         | impytool.flip(i  |
-|                         |                         | mage,angle,save) |
+|                         |                         | mage,angle,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 | histogram               | Creates a histogram for | imp              |
 |                         | the image               | ytool.histogram( |
 |                         |                         | image,hist_type) |
 +-------------------------+-------------------------+------------------+
 | black_white             | Converts the image      | impytool.black_w |
-|                         | black & white form      | hite(image,save) |
+|                         | black & white form      | hite(image:str,save:bool=True) |
 +-------------------------+-------------------------+------------------+
 
 +-----------------------+-----------------------+-----------------------+
