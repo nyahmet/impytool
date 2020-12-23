@@ -181,7 +181,7 @@ def rotate(image:str,angle,save:bool=True):
         img_r = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
     display = cv2.resize(img_r , (960,540))
     if save:
-            cv2.imwrite(angle + " rotated " + image, img_r)
+            cv2.imwrite(str(angle) + " rotated " + image, img_r)
     cv2.imshow("rotated " + image, display )
     return img_r
 
