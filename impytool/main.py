@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 def grayscale(image:str,save:bool=True):
     try:
-        img = cv2.imread(image:str,0)
+        img = cv2.imread(image,0)
     except:
         img = image
     gray_display = cv2.resize(img, (1280, 720))
