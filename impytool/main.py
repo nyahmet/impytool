@@ -35,7 +35,7 @@ def color_filter(image:str,color:str,save:bool=True):
         g_resize = cv2.resize(g, (960, 540))
         cv2.imshow("green channel",g_resize)
         if save:
-            cv2.imwrite("blue channel " + image,g)
+            cv2.imwrite("green channel " + image,g)
         return g
     if color in ['red', 'rgb']:
         r = res.copy()
@@ -44,7 +44,7 @@ def color_filter(image:str,color:str,save:bool=True):
         r_resize = cv2.resize(r, (960, 540))
         cv2.imshow("red channel",r_resize)
         if save:
-            cv2.imwrite("blue channel " + image,r)
+            cv2.imwrite("red channel " + image,r)
         return r
     original_resize = cv2.resize(res,(960,540))
     cv2.imshow("original",original_resize)
