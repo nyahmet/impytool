@@ -35,7 +35,7 @@ def color_filter(image:str,color:str,save:bool=True):
         g_resize = cv2.resize(g, (960, 540))
         cv2.imshow("green channel",g_resize)
         if save:
-            cv2.imwrite("blue channel " + image,g)
+            cv2.imwrite("green channel " + image,g)
         return g
     if color in ['red', 'rgb']:
         r = res.copy()
@@ -44,7 +44,7 @@ def color_filter(image:str,color:str,save:bool=True):
         r_resize = cv2.resize(r, (960, 540))
         cv2.imshow("red channel",r_resize)
         if save:
-            cv2.imwrite("blue channel " + image,r)
+            cv2.imwrite("red channel " + image,r)
         return r
     original_resize = cv2.resize(res,(960,540))
     cv2.imshow("original",original_resize)
@@ -181,7 +181,7 @@ def rotate(image:str,angle,save:bool=True):
         img_r = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
     display = cv2.resize(img_r , (960,540))
     if save:
-            cv2.imwrite(angle + " rotated " + image, img_r)
+            cv2.imwrite(str(angle) + " rotated " + image, img_r)
     cv2.imshow("rotated " + image, display )
     return img_r
 
